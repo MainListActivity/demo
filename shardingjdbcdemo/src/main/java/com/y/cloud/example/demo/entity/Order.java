@@ -1,9 +1,8 @@
 package com.y.cloud.example.demo.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 
 /**
  * Created by y
@@ -14,6 +13,8 @@ import javax.persistence.Table;
 public class Order {
     @Id
     @Column(name = "order_id")
+    @GenericGenerator(name = "key",strategy = "com.y.cloud.example.demo.KeyGenerator")
+    @GeneratedValue(generator = "key")
     private long orderId;
     @Column(name = "user_id")
     private long userId;
