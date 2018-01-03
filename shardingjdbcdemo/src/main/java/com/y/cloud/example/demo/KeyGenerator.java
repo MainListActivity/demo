@@ -14,9 +14,11 @@ import java.io.Serializable;
  */
 public class KeyGenerator implements org.hibernate.id.IdentifierGenerator {
 
+
     @Override
     public Serializable generate(SessionImplementor session, Object object) throws HibernateException {
-        DefaultKeyGenerator defaultKeyGenerator = new DefaultKeyGenerator();
-        return defaultKeyGenerator.generateKey();
+        io.shardingjdbc.core.keygen.KeyGenerator generator = new DefaultKeyGenerator();
+//        generator = (io.shardingjdbc.core.keygen.KeyGenerator) Class.forName(shardingProperties.getDefaultKeyGeneratorClass()).newInstance();
+        return generator.generateKey();
     }
 }

@@ -12,6 +12,7 @@
         <module>eurekaServer</module>
 		<module>eurekaClient</module>
 		<module>shardingjdbcdemo</module>
+		<module>test</module>
 	</modules>
 	<packaging>pom</packaging>
 
