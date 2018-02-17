@@ -2,6 +2,7 @@ package com.test;
 
 import org.junit.Test;
 import org.springframework.web.client.RestTemplate;
+import sun.misc.Unsafe;
 
 import java.lang.reflect.*;
 
@@ -21,7 +22,7 @@ public class MyTest {
         A<B> aa = new A<>();
         Class<A> a2 = A.class;
         A ai2 = a2.newInstance();
-        SB bb = aa.getInstance("",SB.class);
+        SB bb = aa.getInstance("", SB.class);
         B b1 = new B();
         String s = b1.instance(String.class);
         RestTemplate restTemplate = new RestTemplate();
@@ -122,7 +123,8 @@ public class MyTest {
     }
 
 
-    class SB extends B{}
+    class SB extends B {
+    }
 
     private class B {
         private String name;

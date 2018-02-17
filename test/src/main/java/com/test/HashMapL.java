@@ -12,9 +12,17 @@ import java.util.Map;
 public class HashMapL {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<>();
-        for (int i = 0; i < 10000; i++) {
-            map.put("" + i, String.valueOf((char) i));
+        EntityM entityM = new EntityM("A","W");
+        map.put("A","W");
+        if(map.containsKey(entityM.getName())){
+            entityM.setName("B");
         }
-        System.out.println(map.size());
+        System.out.println(map);
+        System.out.println(entityM);
+        if(map.containsValue(entityM.getSex())){
+            entityM.setSex("M");
+        }
+        System.out.println(map);
+        System.out.println(entityM);
     }
 }
