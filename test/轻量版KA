@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T12:42:54.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="BdQYlCJYtYB_2-vKIFrW" version="20.8.20" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-16T13:49:59.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="lgOCIAnU0rU507LEqssg" version="20.8.20" type="github" pages="4">
   <diagram id="2NLbUT-JqscI3aXJ5wvC" name="服务使用">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -365,6 +365,73 @@
         </mxCell>
         <mxCell id="Kv8sGrDP0ovt5ftu0IWb-12" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;" vertex="1" parent="1">
           <mxGeometry x="290" y="340" width="20" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xfBX440tFqmUuhsPF_wZ" name="租户开通">
+    <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GqOM_3o85q-VP-QAsvPn-1" value="JNOS运营(ERP)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="10" width="600" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="YSZYVT766i_7L8sB18y9-1">
+          <mxGeometry width="600" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-3" value="JNOS运营后台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="YSZYVT766i_7L8sB18y9-1">
+          <mxGeometry width="138.46153846153845" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-4" value="创建租户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YSZYVT766i_7L8sB18y9-1">
+          <mxGeometry x="35" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-7" value="创建License" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YSZYVT766i_7L8sB18y9-1">
+          <mxGeometry x="35" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YSZYVT766i_7L8sB18y9-1" source="YSZYVT766i_7L8sB18y9-4" target="YSZYVT766i_7L8sB18y9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-9" value="" style="group" vertex="1" connectable="0" parent="YSZYVT766i_7L8sB18y9-1">
+          <mxGeometry x="255" y="60" width="310" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="YSZYVT766i_7L8sB18y9-9">
+          <mxGeometry width="310" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-11" value="登陆配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="YSZYVT766i_7L8sB18y9-9">
+          <mxGeometry width="71.53846153846153" height="18.857142857142858" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-12" value="BCE登陆页面UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YSZYVT766i_7L8sB18y9-9">
+          <mxGeometry x="95" y="18.86" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-13" value="服务协议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YSZYVT766i_7L8sB18y9-9">
+          <mxGeometry x="95" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YSZYVT766i_7L8sB18y9-1" source="YSZYVT766i_7L8sB18y9-4" target="YSZYVT766i_7L8sB18y9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YSZYVT766i_7L8sB18y9-17" target="YSZYVT766i_7L8sB18y9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-17" value="创建Tenant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YSZYVT766i_7L8sB18y9-4" target="YSZYVT766i_7L8sB18y9-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-5" value="初始化租户运营超管" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YSZYVT766i_7L8sB18y9-19" target="YSZYVT766i_7L8sB18y9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSZYVT766i_7L8sB18y9-19" value="创建account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
