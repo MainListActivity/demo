@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T02:14:32.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="um6ETSgPZ_-PzGvXixhU" version="20.8.20" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-21T07:52:30.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="YkDGTtmNAxYzHz6vfGgV" version="20.8.20" type="github" pages="7">
   <diagram id="2NLbUT-JqscI3aXJ5wvC" name="服务使用">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -179,7 +179,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="租户模型" id="eCw3FjhSwi4i0MzMPmpF">
-    <mxGraphModel dx="1683" dy="1305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="732" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -348,7 +348,7 @@
         <mxCell id="Kv8sGrDP0ovt5ftu0IWb-3" value="accountInfos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kv8sGrDP0ovt5ftu0IWb-4" value="accountType" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Kv8sGrDP0ovt5ftu0IWb-4" value="level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Kv8sGrDP0ovt5ftu0IWb-6" value="parentId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -613,7 +613,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="szddI3EVnFox9P-cZEiB" name="用户登陆">
-    <mxGraphModel dx="2281" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
