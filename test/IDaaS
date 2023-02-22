@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T06:28:01.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="Kc05uWHaLL-e6KFuw3mH" version="20.8.20" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-22T15:33:56.263Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="PuuZNcY6cO912lBHGM6B" version="20.8.20" type="github" pages="9">
   <diagram id="eAhpBh0BBuR0Ax3QF22W" name="加密传输1.0">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -646,6 +646,9 @@
         </mxCell>
         <mxCell id="SC5yqe-Gq-mCWjg4G2iT-22" value="" style="group;rounded=0;fontFamily=京东朗正体;fontSize=19;fontColor=#000000;fillColor=none;strokeColor=#a80303;dashed=1;dashPattern=8 8;strokeWidth=2;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="710" y="30" width="710" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="U2j5bV9vvxV9DFCCNAyp-1" value="JNOS融合" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#a80303;fontColor=#ffffff;fontFamily=京东朗正体;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="870" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
