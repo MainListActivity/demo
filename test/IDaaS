@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T03:28:25.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="N_mkfWIoUIOjzlft0GQ8" version="20.8.20" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-23T03:42:51.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="IV5ADlKSmVN-r8dSggk6" version="20.8.20" type="github" pages="9">
   <diagram id="eAhpBh0BBuR0Ax3QF22W" name="加密传输1.0">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -667,28 +667,28 @@
         <mxCell id="I9k8vK_aylGAOtUkrolu-5" value="WEB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-3">
           <mxGeometry width="64.61538461538461" height="12.857142857142856" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-1" value="B/C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-3">
+        <mxCell id="I9k8vK_aylGAOtUkrolu-1" value="B/C" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=京东朗正体;fontSize=19;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-3">
           <mxGeometry x="10" y="45" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-2" value="E" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-3">
+        <mxCell id="I9k8vK_aylGAOtUkrolu-2" value="E" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-3">
           <mxGeometry x="150" y="45" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-13" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="660" y="100" width="280" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-9" value="内嵌H5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-13">
-          <mxGeometry x="160" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-13">
           <mxGeometry width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-9" value="内嵌H5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-13">
+          <mxGeometry x="160" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-15" value="移动端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-13">
           <mxGeometry width="64.61538461538461" height="12.857142857142856" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-16" value="小程序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-13">
+        <mxCell id="I9k8vK_aylGAOtUkrolu-16" value="小程序" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-13">
           <mxGeometry x="10" y="45" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-17" value="IOS/Android" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-13">
+        <mxCell id="I9k8vK_aylGAOtUkrolu-17" value="IOS/Android" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-13">
           <mxGeometry x="150" y="45" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-27" value="SaaS" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-2" target="I9k8vK_aylGAOtUkrolu-33">
@@ -707,10 +707,10 @@
         <mxCell id="I9k8vK_aylGAOtUkrolu-29" value="零售云移动端" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="270" as="sourcePoint" />
-            <mxPoint x="710" y="380" as="targetPoint" />
+            <mxPoint x="740" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-30" value="第三方移动端" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-14">
+        <mxCell id="I9k8vK_aylGAOtUkrolu-30" value="第三方移动端" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-14" target="I9k8vK_aylGAOtUkrolu-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="810" y="260" as="sourcePoint" />
             <mxPoint x="890" y="370" as="targetPoint" />
@@ -722,29 +722,77 @@
             <mxPoint x="230" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-32" value="零售云账号认证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="I9k8vK_aylGAOtUkrolu-32" value="零售云账号认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=京东朗正体;" vertex="1" parent="1">
           <mxGeometry x="170" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-33" value="ERP账号认证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="I9k8vK_aylGAOtUkrolu-33" value="ERP账号认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
           <mxGeometry x="310" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-34" value="JNOS-TOKEN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="I9k8vK_aylGAOtUkrolu-34" value="JNOS-TOKEN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=京东朗正体;" vertex="1" parent="1">
           <mxGeometry x="170" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-35" value="京东TOKEN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="I9k8vK_aylGAOtUkrolu-45" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-35" target="I9k8vK_aylGAOtUkrolu-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-36" value="微信web授权码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="I9k8vK_aylGAOtUkrolu-35" value="京东TOKEN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="510" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-37" value="CCO-TOKEN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="I9k8vK_aylGAOtUkrolu-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-36" target="I9k8vK_aylGAOtUkrolu-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-38" value="微信小程序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="I9k8vK_aylGAOtUkrolu-36" value="微信web授权码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="640" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-39" value="三方TOKEN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="I9k8vK_aylGAOtUkrolu-37" value="CCO-TOKEN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-38" target="I9k8vK_aylGAOtUkrolu-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-38" value="微信小程序" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="770" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-43" value="标准解析协议" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-39" target="I9k8vK_aylGAOtUkrolu-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-39" value="三方TOKEN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="960" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-40" target="I9k8vK_aylGAOtUkrolu-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-40" value="三方账号认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="960" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-42" value="三方服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="960" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-55" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-44" target="I9k8vK_aylGAOtUkrolu-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-44" value="OAuth2模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="640" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-52" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="700" width="460" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-53" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-52">
+          <mxGeometry width="460" height="139.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-54" value="oauth提供者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-52">
+          <mxGeometry width="70.76923076923077" height="11.999999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-48" value="宙斯" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-52">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-50" value="微信WEB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-52">
+          <mxGeometry x="160" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-51" value="微信小程序" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-52">
+          <mxGeometry x="290" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="605" y="354" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
