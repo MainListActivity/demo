@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T09:34:13.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="bHIS8Hbr2M4ou9XlMFIT" version="20.8.20" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-23T02:07:06.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="E_0twjX8_nU40f4lmdUf" version="20.8.20" type="github" pages="8">
   <diagram id="2NLbUT-JqscI3aXJ5wvC" name="服务使用">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -481,6 +481,9 @@
         <mxCell id="rTaScfCcZkQmJMffglgf-10" value="支持的账号登陆类型和排序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rTaScfCcZkQmJMffglgf-6">
           <mxGeometry x="120" y="250" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="V5HLWwKgfTCSjSjIdYIm-1" value="配置微信Web登陆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rTaScfCcZkQmJMffglgf-6">
+          <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -601,7 +604,7 @@
             <mxPoint x="819.5" y="627" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="olnEevcndugVFiEWfSUE-12" value="同步小程序和web的AKSK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="olnEevcndugVFiEWfSUE-11">
+        <mxCell id="olnEevcndugVFiEWfSUE-12" value="同步小程序AKSK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="olnEevcndugVFiEWfSUE-11">
           <mxGeometry x="-0.3615" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
