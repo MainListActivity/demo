@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T03:42:51.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="IV5ADlKSmVN-r8dSggk6" version="20.8.20" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-23T04:35:43.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="GTkUSz_p5C16ljgiMTEI" version="20.8.20" type="github" pages="9">
   <diagram id="eAhpBh0BBuR0Ax3QF22W" name="加密传输1.0">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -674,7 +674,7 @@
           <mxGeometry x="150" y="45" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-13" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="660" y="100" width="280" height="150" as="geometry" />
+          <mxGeometry x="720" y="100" width="280" height="150" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-13">
           <mxGeometry width="280" height="150" as="geometry" />
@@ -704,7 +704,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-29" value="零售云移动端" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-14">
+        <mxCell id="I9k8vK_aylGAOtUkrolu-29" value="零售云移动端" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-14" target="I9k8vK_aylGAOtUkrolu-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="270" as="sourcePoint" />
             <mxPoint x="740" y="340" as="targetPoint" />
@@ -735,13 +735,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-35" value="京东TOKEN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
-          <mxGeometry x="510" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-36" target="I9k8vK_aylGAOtUkrolu-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-36" value="微信web授权码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
-          <mxGeometry x="640" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-37" value="CCO-TOKEN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontFamily=京东朗正体;" vertex="1" parent="1">
           <mxGeometry x="320" y="510" width="120" height="60" as="geometry" />
@@ -750,22 +750,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-38" value="微信小程序" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
-          <mxGeometry x="770" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-43" value="标准解析协议" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-39" target="I9k8vK_aylGAOtUkrolu-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-39" value="三方TOKEN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
-          <mxGeometry x="960" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="990" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-40" target="I9k8vK_aylGAOtUkrolu-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-40" value="三方账号认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
-          <mxGeometry x="960" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="990" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-42" value="三方服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
-          <mxGeometry x="960" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="990" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I9k8vK_aylGAOtUkrolu-55" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-44" target="I9k8vK_aylGAOtUkrolu-53">
           <mxGeometry relative="1" as="geometry" />
@@ -791,8 +791,32 @@
         <mxCell id="I9k8vK_aylGAOtUkrolu-51" value="微信小程序" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="I9k8vK_aylGAOtUkrolu-52">
           <mxGeometry x="290" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9k8vK_aylGAOtUkrolu-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
-          <mxGeometry x="605" y="354" width="120" height="60" as="geometry" />
+        <mxCell id="zNifWiqpwIwhTOP2E6Uz-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=京东朗正体;fontSize=17;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-56" target="zNifWiqpwIwhTOP2E6Uz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zNifWiqpwIwhTOP2E6Uz-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=京东朗正体;fontSize=17;" edge="1" parent="1" source="I9k8vK_aylGAOtUkrolu-56" target="zNifWiqpwIwhTOP2E6Uz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I9k8vK_aylGAOtUkrolu-56" value="移动认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="670" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zNifWiqpwIwhTOP2E6Uz-4" value="租户认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="500" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zNifWiqpwIwhTOP2E6Uz-5" value="平台认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontFamily=京东朗正体;" vertex="1" parent="1">
+          <mxGeometry x="830" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zNifWiqpwIwhTOP2E6Uz-15" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=京东朗正体;fontSize=17;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="450" as="sourcePoint" />
+            <mxPoint x="540" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zNifWiqpwIwhTOP2E6Uz-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=京东朗正体;fontSize=17;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="440" as="sourcePoint" />
+            <mxPoint x="860" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
