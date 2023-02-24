@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T09:01:06.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="ZQ4Ka5yNDocflwjqPl3W" version="20.8.20" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-02-24T09:04:28.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="2m_W2qW7nQrzNbOpqEUb" version="20.8.20" type="github" pages="11">
   <diagram id="2NLbUT-JqscI3aXJ5wvC" name="服务使用">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -452,60 +452,60 @@
         <mxCell id="hvSBbW3GQY5LvUSl5v5y-0" />
         <mxCell id="hvSBbW3GQY5LvUSl5v5y-1" parent="hvSBbW3GQY5LvUSl5v5y-0" />
         <mxCell id="6hE__sivJY2211uRLTrK-0" value="B端用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
-          <mxGeometry x="60" y="340" width="30" height="60" as="geometry" />
+          <mxGeometry x="80" y="200" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-1" value="JNOS选组织页" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
-          <mxGeometry x="410" y="290" width="100" height="500" as="geometry" />
+          <mxGeometry x="430" y="150" width="100" height="500" as="geometry" />
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-2" value="JNOS-IDaaS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;" vertex="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
-          <mxGeometry x="610" y="290" width="100" height="500" as="geometry" />
+          <mxGeometry x="630" y="150" width="100" height="500" as="geometry" />
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-4" value="JimDB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;fillColor=rgb(255, 255, 255);" vertex="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
-          <mxGeometry x="830" y="290" width="100" height="500" as="geometry" />
+          <mxGeometry x="850" y="150" width="100" height="500" as="geometry" />
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-6" value="返回加入的所有组织" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="879.5" y="500" as="sourcePoint" />
-            <mxPoint x="659.5" y="500" as="targetPoint" />
+            <mxPoint x="899.5" y="360" as="sourcePoint" />
+            <mxPoint x="679.5" y="360" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-9" value="用户登陆" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1" source="6hE__sivJY2211uRLTrK-0" target="oOil513yOI6iqs4YjI0y-5">
           <mxGeometry x="-0.5579" width="160" relative="1" as="geometry">
-            <mxPoint x="140" y="370" as="sourcePoint" />
-            <mxPoint x="340" y="370" as="targetPoint" />
+            <mxPoint x="160" y="230" as="sourcePoint" />
+            <mxPoint x="360" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="370" />
+              <mxPoint x="310" y="230" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-10" value="根据token查询组织" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="660" y="470" as="sourcePoint" />
-            <mxPoint x="879.5" y="470" as="targetPoint" />
+            <mxPoint x="680" y="330" as="sourcePoint" />
+            <mxPoint x="899.5" y="330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="810" y="470" />
+              <mxPoint x="830" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-11" value="修改token里组织的状态" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="660" y="610" as="sourcePoint" />
-            <mxPoint x="879.5" y="610" as="targetPoint" />
+            <mxPoint x="680" y="470" as="sourcePoint" />
+            <mxPoint x="899.5" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="810" y="610" />
+              <mxPoint x="830" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-12" value="修改完成" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="879.5" y="650" as="sourcePoint" />
-            <mxPoint x="660" y="650" as="targetPoint" />
+            <mxPoint x="899.5" y="510" as="sourcePoint" />
+            <mxPoint x="680" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oOil513yOI6iqs4YjI0y-0" value="B端页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
-          <mxGeometry x="170" y="290" width="100" height="500" as="geometry" />
+          <mxGeometry x="190" y="150" width="100" height="500" as="geometry" />
         </mxCell>
         <mxCell id="oOil513yOI6iqs4YjI0y-4" value="跳转选组织页面" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="oOil513yOI6iqs4YjI0y-0" target="6hE__sivJY2211uRLTrK-1">
           <mxGeometry x="-0.4645" width="160" relative="1" as="geometry">
@@ -519,59 +519,76 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oOil513yOI6iqs4YjI0y-1" value="B端用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
-          <mxGeometry x="60" y="470" width="30" height="60" as="geometry" />
+          <mxGeometry x="80" y="330" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oOil513yOI6iqs4YjI0y-3" value="点击所有组织" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1" source="oOil513yOI6iqs4YjI0y-1" target="oOil513yOI6iqs4YjI0y-0">
           <mxGeometry x="-0.0018" width="160" relative="1" as="geometry">
-            <mxPoint x="70" y="499.5" as="sourcePoint" />
-            <mxPoint x="215" y="499.5" as="targetPoint" />
+            <mxPoint x="90" y="359.5" as="sourcePoint" />
+            <mxPoint x="235" y="359.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="155" y="499.5" />
+              <mxPoint x="175" y="359.5" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oOil513yOI6iqs4YjI0y-5" value="JNOS登陆页" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
-          <mxGeometry x="290" y="290" width="100" height="500" as="geometry" />
+          <mxGeometry x="310" y="150" width="100" height="500" as="geometry" />
         </mxCell>
         <mxCell id="oOil513yOI6iqs4YjI0y-7" value="用户首次登陆" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1" source="oOil513yOI6iqs4YjI0y-5" target="6hE__sivJY2211uRLTrK-1">
           <mxGeometry x="-0.0018" width="160" relative="1" as="geometry">
-            <mxPoint x="350" y="400.5" as="sourcePoint" />
-            <mxPoint x="480" y="400.5" as="targetPoint" />
+            <mxPoint x="370" y="260.5" as="sourcePoint" />
+            <mxPoint x="500" y="260.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="415" y="400" />
+              <mxPoint x="435" y="260" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-3" value="返回列表/组织类别" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="660" y="540" as="sourcePoint" />
-            <mxPoint x="460" y="540" as="targetPoint" />
+            <mxPoint x="680" y="400" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-5" value="拉取组织列表" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="460" y="440" as="sourcePoint" />
-            <mxPoint x="660" y="440" as="targetPoint" />
+            <mxPoint x="480" y="300" as="sourcePoint" />
+            <mxPoint x="680" y="300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610.5" y="440" />
+              <mxPoint x="630.5" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-7" value="选择组织" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="460" y="579.5" as="sourcePoint" />
-            <mxPoint x="660" y="579.5" as="targetPoint" />
+            <mxPoint x="480" y="439.5" as="sourcePoint" />
+            <mxPoint x="680" y="439.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="579.5" />
+              <mxPoint x="630" y="439.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6hE__sivJY2211uRLTrK-8" value="选择成功" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="660" y="680" as="sourcePoint" />
-            <mxPoint x="460" y="680" as="targetPoint" />
+            <mxPoint x="680" y="540" as="sourcePoint" />
+            <mxPoint x="480" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oOil513yOI6iqs4YjI0y-8" value="回跳业务" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1" target="oOil513yOI6iqs4YjI0y-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="570" as="sourcePoint" />
+            <mxPoint x="280" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LxSj0C2oS-5BGBTepUr0-0" value="判断是否弹窗提示刷新" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="hvSBbW3GQY5LvUSl5v5y-1" target="oOil513yOI6iqs4YjI0y-0">
+          <mxGeometry x="0.1024" width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="600" as="sourcePoint" />
+            <mxPoint x="360" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="600" />
+              <mxPoint x="315" y="640" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
