@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T03:13:31.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="IxiSngGVv7kxeIsfbnt9" version="20.8.20" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-03-01T08:34:10.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="nft0_WSwV71zukatLH2-" version="20.8.20" type="github" pages="11">
   <diagram id="2NLbUT-JqscI3aXJ5wvC" name="服务使用">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1399,7 +1399,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_JJY_LVvZQ55nJjpO5X7-3" value="product_code       varchar(100) null comment &#39;产品code&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#CC0000;" vertex="1" parent="_JJY_LVvZQ55nJjpO5X7-1">
+        <mxCell id="_JJY_LVvZQ55nJjpO5X7-3" value="product_code       varchar(100) null comment &#39;产品code&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#000000;" vertex="1" parent="_JJY_LVvZQ55nJjpO5X7-1">
           <mxGeometry x="30" width="560" height="30" as="geometry">
             <mxRectangle width="560" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1412,7 +1412,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_JJY_LVvZQ55nJjpO5X7-9" value="endpoint       varchar(100) null comment &#39;端点&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#CC0000;" vertex="1" parent="_JJY_LVvZQ55nJjpO5X7-7">
+        <mxCell id="_JJY_LVvZQ55nJjpO5X7-9" value="biz_type       varchar(50) null comment &#39;业务类型，由前端自定义&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#000000;" vertex="1" parent="_JJY_LVvZQ55nJjpO5X7-7">
           <mxGeometry x="30" width="560" height="30" as="geometry">
             <mxRectangle width="560" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1557,7 +1557,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_0k0jfHVp2TqOI03mjOr-10" value="last_login         dateTime          null comment &#39;上次登陆选择的时间&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#CC0000;" vertex="1" parent="_0k0jfHVp2TqOI03mjOr-8">
+        <mxCell id="_0k0jfHVp2TqOI03mjOr-10" value="last_selected         dateTime          null comment &#39;上次登陆选择的时间&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#CC0000;" vertex="1" parent="_0k0jfHVp2TqOI03mjOr-8">
           <mxGeometry x="30" width="490" height="30" as="geometry">
             <mxRectangle width="490" height="30" as="alternateBounds" />
           </mxGeometry>
