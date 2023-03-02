@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T12:14:32.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="r6ngzn5vDp7MwYzyjp1u" version="20.8.20" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-03-02T12:49:14.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="fkb9U46KdVrUj0VtYPsD" version="20.8.20" type="github" pages="13">
   <diagram id="2NLbUT-JqscI3aXJ5wvC" name="服务使用">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1735,6 +1735,123 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HukA2KG9jm1PCBPrL6D3" name="微信联合登陆配置">
+    <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vRtRmS0g9AakMWS21uFH-1" value="天地汇运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-2" value="微信" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="150" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-3" value="JNOS-IDaaS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="150" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-4" value="JimDB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+          <mxGeometry x="850" y="150" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-6" value="输入登陆配置并点击验证" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vRtRmS0g9AakMWS21uFH-1" target="vRtRmS0g9AakMWS21uFH-10">
+          <mxGeometry x="0.1765" width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="230" as="sourcePoint" />
+            <mxPoint x="360" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-8" value="访问授权页" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="239.5" y="383" as="sourcePoint" />
+            <mxPoint x="479.5" y="383" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-9" value="认证url+state" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="679.5" y="343" as="sourcePoint" />
+            <mxPoint x="239.5" y="343" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-10" value="运营后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-12" value="appid/appsecret" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1" source="vRtRmS0g9AakMWS21uFH-10" target="vRtRmS0g9AakMWS21uFH-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="260.5" as="sourcePoint" />
+            <mxPoint x="500" y="260.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="435" y="260" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-13" value="扫码完成，拿到code" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="453" as="sourcePoint" />
+            <mxPoint x="679.5" y="453" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390.5" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-14" value="返回成功" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" target="vRtRmS0g9AakMWS21uFH-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="680" y="620" as="sourcePoint" />
+            <mxPoint x="359.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-15" value="要求用户扫码" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="479.5" y="413" as="sourcePoint" />
+            <mxPoint x="240" y="413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-18" value="aksk" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="510" as="sourcePoint" />
+            <mxPoint x="680" y="510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-19" value="code验证通过，根据state读取aksk" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0023" width="160" relative="1" as="geometry">
+            <mxPoint x="680.5" y="480" as="sourcePoint" />
+            <mxPoint x="900" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830.5" y="480" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-20" value="成功" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="320" as="sourcePoint" />
+            <mxPoint x="680" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-21" value="生成state并缓存和aksk的关系" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0023" width="160" relative="1" as="geometry">
+            <mxPoint x="680.5" y="290" as="sourcePoint" />
+            <mxPoint x="900" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830.5" y="290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRtRmS0g9AakMWS21uFH-26" value="保存aksk和租户的关系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="540" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
