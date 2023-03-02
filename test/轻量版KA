@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T08:34:10.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="nft0_WSwV71zukatLH2-" version="20.8.20" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-03-02T10:51:51.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="nZPdD3ugEnBVBljUOM8J" version="20.8.20" type="github" pages="12">
   <diagram id="2NLbUT-JqscI3aXJ5wvC" name="服务使用">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1399,7 +1399,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_JJY_LVvZQ55nJjpO5X7-3" value="product_code       varchar(100) null comment &#39;产品code&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#000000;" vertex="1" parent="_JJY_LVvZQ55nJjpO5X7-1">
+        <mxCell id="_JJY_LVvZQ55nJjpO5X7-3" value="app_code       varchar(100) null comment &#39;应用code&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#000000;" vertex="1" parent="_JJY_LVvZQ55nJjpO5X7-1">
           <mxGeometry x="30" width="560" height="30" as="geometry">
             <mxRectangle width="560" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1579,6 +1579,135 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1169" y="700" as="sourcePoint" />
             <mxPoint x="1279" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5H9YbQjFvCKLfMZPwUgL" name="业务跳转登陆页">
+    <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gBOFLDckn150uo6C8N8A-1" value="B端用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-2" value="JNOS网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="150" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-3" value="JNOS-IDaaS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="150" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-4" value="JimDB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+          <mxGeometry x="850" y="150" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-5" value="租户配置的登陆页" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="899.5" y="361" as="sourcePoint" />
+            <mxPoint x="679.5" y="361" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-6" value="打开" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gBOFLDckn150uo6C8N8A-1" target="gBOFLDckn150uo6C8N8A-10">
+          <mxGeometry x="0.1765" width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="230" as="sourcePoint" />
+            <mxPoint x="360" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-7" value="未登陆-租户code+appCode查询租户配置" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0023" width="160" relative="1" as="geometry">
+            <mxPoint x="680" y="331" as="sourcePoint" />
+            <mxPoint x="899.5" y="331" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="331" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-8" value="跳转登陆页" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="239.5" y="505" as="sourcePoint" />
+            <mxPoint x="359.5" y="505" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-9" value="返回code504+redirectUrl登陆页地址" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" target="gBOFLDckn150uo6C8N8A-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="679.5" y="470" as="sourcePoint" />
+            <mxPoint x="460" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-10" value="业务页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-14" value="JNOS登陆页" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-15" value="访问业务接口" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1" source="gBOFLDckn150uo6C8N8A-10" target="gBOFLDckn150uo6C8N8A-2">
+          <mxGeometry x="-0.0018" width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="260.5" as="sourcePoint" />
+            <mxPoint x="500" y="260.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="435" y="260" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-17" value="检验用户是否登陆" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="300" as="sourcePoint" />
+            <mxPoint x="680" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630.5" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-19" value="返回配置" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" target="gBOFLDckn150uo6C8N8A-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="680" y="620" as="sourcePoint" />
+            <mxPoint x="480" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-20" value="回跳业务" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="650" as="sourcePoint" />
+            <mxPoint x="240" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBOFLDckn150uo6C8N8A-21" value="根据appCode和tenantCode拉取登陆页设计元素" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1219" width="160" relative="1" as="geometry">
+            <mxPoint x="359.5" y="540" as="sourcePoint" />
+            <mxPoint x="679.5" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="540" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CnWfXIlvjl2VHss9CaAA-1" value="header里面的origin获取appCode&lt;br&gt;appCode转化为B/C/E&lt;br&gt;域名里获取tenantCode&lt;br&gt;referer作为retrunUrl参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="570" y="384" width="190" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="CnWfXIlvjl2VHss9CaAA-2" value="租户配置的登陆页" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="600" as="sourcePoint" />
+            <mxPoint x="680" y="600" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CnWfXIlvjl2VHss9CaAA-3" value="未登陆-租户code+appCode查询租户配置" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0023" width="160" relative="1" as="geometry">
+            <mxPoint x="680.5" y="570" as="sourcePoint" />
+            <mxPoint x="900" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830.5" y="570" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
