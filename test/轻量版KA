@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T12:49:14.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="fkb9U46KdVrUj0VtYPsD" version="20.8.20" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-02T13:37:52.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="xtAgI1nAJ85jzT8XcMFt" version="20.8.20" type="github" pages="14">
   <diagram id="2NLbUT-JqscI3aXJ5wvC" name="服务使用">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1596,7 +1596,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fI6hNvcjtvhvRIgqi7CO-50" value="..." style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="fI6hNvcjtvhvRIgqi7CO-48">
+        <mxCell id="fI6hNvcjtvhvRIgqi7CO-50" value="app_domain    varchar(200)                       null comment &#39;应用域名，全局唯一&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="fI6hNvcjtvhvRIgqi7CO-48">
           <mxGeometry x="30" width="490" height="30" as="geometry">
             <mxRectangle width="490" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1852,6 +1852,41 @@
         </mxCell>
         <mxCell id="vRtRmS0g9AakMWS21uFH-26" value="保存aksk和租户的关系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="620" y="540" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4DEiVbcpYxCbHb9VOgil" name="域名">
+    <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VQHneJB9xAaYLT4U8QyY-1" value="&lt;font color=&quot;#c70505&quot;&gt;xxxx&lt;/font&gt;.&amp;nbsp; &amp;nbsp;&lt;font color=&quot;#009900&quot;&gt;login&lt;/font&gt;.&amp;nbsp; &amp;nbsp;selling.cn?&lt;font color=&quot;#0000cc&quot;&gt;appCode=tdh.seller&lt;/font&gt;&amp;amp;&lt;font color=&quot;#cc0066&quot;&gt;returnUrl=原始url&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQHneJB9xAaYLT4U8QyY-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=22;fontColor=#000000;strokeColor=#CC0000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="280" as="sourcePoint" />
+            <mxPoint x="330" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VQHneJB9xAaYLT4U8QyY-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=22;fontColor=#000000;strokeColor=#009900;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VQHneJB9xAaYLT4U8QyY-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=22;fontColor=#000000;strokeColor=#0000CC;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="280" as="sourcePoint" />
+            <mxPoint x="700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VQHneJB9xAaYLT4U8QyY-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=22;fontColor=#000000;strokeColor=#CC0066;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="280" as="sourcePoint" />
+            <mxPoint x="890" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
