@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T07:58:44.517Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="0yAW6YpAZZCjAmpXdro6" version="21.3.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-05-26T08:03:09.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="PdChrgYapnZ-zURZJELN" version="21.3.2" type="github" pages="13">
   <diagram id="eAhpBh0BBuR0Ax3QF22W" name="加密传输1.0">
     <mxGraphModel dx="1703" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1242,10 +1242,10 @@
           <mxGeometry x="540" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wnDA02Z7Q_U8BGTJI0jE-4" value="指定accountId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="336" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wnDA02Z7Q_U8BGTJI0jE-5" value="指定tenantId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="476" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wnDA02Z7Q_U8BGTJI0jE-7" value="域配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="430" width="60" height="30" as="geometry" />
@@ -1269,15 +1269,15 @@
           <mxGeometry x="670" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wnDA02Z7Q_U8BGTJI0jE-13" value="cookieName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="626" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wnDA02Z7Q_U8BGTJI0jE-14" value="登陆页配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="766" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wnDA02Z7Q_U8BGTJI0jE-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="460" as="sourcePoint" />
-            <mxPoint x="760" y="500" as="targetPoint" />
+            <mxPoint x="746" y="460" as="sourcePoint" />
+            <mxPoint x="746" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
